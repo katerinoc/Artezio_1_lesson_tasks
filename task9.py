@@ -1,0 +1,5 @@
+print("Enter your list: ")
+your_list=input()
+your_list=your_list.split()
+your_list=set(your_list)
+print(your_list)
